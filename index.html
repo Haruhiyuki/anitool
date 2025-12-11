@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <!-- ============================================ -->
+    <!--               图标引入区域                   -->
+    <!-- ============================================ -->
+    
+    <!-- 1. 标准 .ico 图标 (显示在浏览器标签页) -->
+    <!-- 请确保 favicon.ico 已放入 public/ 目录 -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+
+    <!-- 3. 192x192 大号图标 (用于移动端添加到主屏幕/PWA) -->
+    <!-- 请确保 icon-192.png 已放入 public/ 目录 -->
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    
+    <!-- ============================================ -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>凉宫春日台词匹配</title>
+    <!-- 引入 Phosphor Icons (图标库) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- 引入 Google Fonts (字体) -->
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-slate-950 text-slate-100 h-screen w-screen overflow-hidden relative">
+    <!-- Vue 应用挂载点 -->
+    <div id="app" class="w-full h-full"></div>
+    <!-- 引入 Vue 入口文件 -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
